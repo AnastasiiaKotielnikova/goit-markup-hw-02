@@ -136,7 +136,7 @@ span {
     letter-spacing: 0.03em;
 }
 .part-text{
-    color: var(--body-color);
+    color: var(--header-color);
 
     font-weight: 400;
     font-size: 16px;
@@ -153,9 +153,23 @@ span {
 }
 .footer-logo{
     color: var(--title-color);
+
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+.footer-address{
+    color: var(--title-color);
+    font-style: normal;
+}
+.footer-address:hover,
+.footer-address:focus {
+    color: var(--accent-color);
 }
 .footer-link{
-    color: var(--title-color);
+    color: rgba(255, 255, 255, 0.6);
 
     font-weight: 400;
     font-size: 14px;
